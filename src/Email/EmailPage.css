@@ -1,0 +1,45 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 1rem;
+  align-items: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+table {
+  /* border-collapse: collapse; */
+  width: 60%;
+  /* margin-left: 60px; */
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+
+/* th {
+  background-color: rgb(49, 51, 53);
+} */
+
+td {
+  background-color: rgb(205, 235, 253);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
