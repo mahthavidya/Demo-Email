@@ -249,8 +249,6 @@ class EmailPage extends React.Component {
   };
   componentDidUpdate() {
     console.log(this.state);
-    console.log(this.props.emailReadref);
-    console.log(this.props.searchEmailref);
   }
 
   // updateEmailStatus = (row1) => {
